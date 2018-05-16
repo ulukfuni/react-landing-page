@@ -1,0 +1,38 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.logo-container {
+  margin: 0 auto;
+  width: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 750px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.sign-in {
+  margin: 50px auto;
+  width: 80%;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #faa243;
+}
+
+@media (min-width: 768px) {
+  .sign-in {
+    width: 50%;
+  }
+}
